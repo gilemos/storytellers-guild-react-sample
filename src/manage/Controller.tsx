@@ -11,7 +11,6 @@ export class Controller {
     }
 
     public setIsObserverButtonClicked(flag: boolean) {
-        alert(flag);
         this._isObserverButtonClicked = flag;
     }
 

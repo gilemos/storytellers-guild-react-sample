@@ -18,7 +18,6 @@ export const ObservableButton: React.FunctionComponent = observer(
             <Button
                 icon={<AnimalTurtleRegular />}
                 onClick={() => {
-                    alert(context);
                     context?.setIsObserverButtonClicked(
                         !context?.getIsObserverButtonClicked()
                     );
